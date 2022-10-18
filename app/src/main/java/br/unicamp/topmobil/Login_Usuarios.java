@@ -7,22 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Cadastro extends AppCompatActivity {
+public class Login_Usuarios extends AppCompatActivity {
 
-    Button btnCadastrar;
+    Button btnLoign;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_main);
 
-        btnCadastrar.findViewById(R.id.btnCadastrar);
+        btnLoign.findViewById(R.id.btnLogin);
 
-        btnCadastrar.setOnClickListener(new View.OnClickListener() {
+        btnLoign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(Cadastro.this, activity_menu.class);
+                Intent intent = new Intent(Login_Usuarios.this, activity_menu.class);
 
                 startActivity(intent);
 
