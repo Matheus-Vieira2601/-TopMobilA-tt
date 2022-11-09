@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitConfig
 {
-
+//dasd
     private static final String BASE_URL = "http://177.220.18.28:5258/api/cadastrocliente";
     private static Retrofit retrofit;
 
